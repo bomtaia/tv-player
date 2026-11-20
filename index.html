@@ -16,14 +16,17 @@
 <div id="msg"></div>
 <script>
 // A full-screen YouTube player for a playlist that starts over when it ends.
-// ?list=<playlist id>; the page that frames it can send "pause", "play" or "restart" with postMessage.
+// ?ids=<video ids>; the page that frames it can send "pause", "play" or "restart" with postMessage.
 (function () {
   var q = {};
   location.search.replace(/^\?/, '').split('&').forEach(function (kv) {
     var i = kv.indexOf('=');
     if (i > 0) q[decodeURIComponent(kv.slice(0, i))] = decodeURIComponent(kv.slice(i + 1));
   });
-  var list = q.list || 'PL-8GyGna6QmyXHBVi6L-e5JAJ3sinZokR';
+  // The playlist's videos, in order (YouTube won't embed the playlist itself: error 150). ?ids=a,b,c replaces them.
+  var ids = (q.ids || 'fD4uDIoCn3M,qjFLttQjtPw,SjT-v1BnfFw,VIcJj8tdpsg,BRQhpuQIxmg,Dxn_ypie2AM,AP75o0woUGQ,' +
+             'qvGSNyzrVTQ,BrJNrMboOjE,auO0hWISu5Y,VFhq9EzMXYc,-3sVsofeBt8').split(',');
+  var at = 0, failed = {};
   var debug = q.debug === '1';
   var player = null;
 
@@ -35,32 +38,38 @@
   window.onYouTubeIframeAPIReady = function () {
     player = new YT.Player('p', {
       width: '100%', height: '100%',
-      playerVars: {listType: 'playlist', list: list, autoplay: 1, loop: 1, controls: 0, rel: 0,
-                   modestbranding: 1, playsinline: 1, iv_load_policy: 3, origin: location.origin},
+      videoId: ids[0],
+      playerVars: {autoplay: 1, controls: 0, rel: 0, modestbranding: 1, playsinline: 1, iv_load_policy: 3,
+                   origin: location.origin},
       events: {
-        onReady: function (e) { say('ready'); e.target.setLoop(true); e.target.playVideo(); },
+        onReady: function (e) { say('ready'); e.target.playVideo(); },
         onStateChange: function (e) {
-          say('state ' + e.data);
-          if (e.data === YT.PlayerState.ENDED) {
-            var ids = player.getPlaylist() || [];
-            if (player.getPlaylistIndex() >= ids.length - 1) player.playVideoAt(0);
-          }
+          say('state ' + e.data + ' #' + (at + 1));
+          // One video ended: the next, and after the last, the first again.
+          if (e.data === YT.PlayerState.ENDED) next();
         },
         onError: function (e) {
-          say('error ' + e.data);
-          // A video that won't play: go on to the next one.
-          setTimeout(function () { try { player.nextVideo(); } catch (x) {} }, 2000);
+          say('error ' + e.data + ' #' + (at + 1));
+          failed[at] = true;
+          setTimeout(next, 1500);
         }
       }
     });
   };
+
+  function next() {
+    var tries = 0;
+    do { at = (at + 1) % ids.length; tries++; } while (failed[at] && tries < ids.length);
+    if (failed[at]) failed = {};   // every one failed once: try them all again
+    player.loadVideoById(ids[at]);
+  }
 
   window.addEventListener('message', function (e) {
     if (!player || !e.data || typeof e.data.tv !== 'string') return;
     try {
       if (e.data.tv === 'pause') player.pauseVideo();
       else if (e.data.tv === 'play') player.playVideo();
-      else if (e.data.tv === 'restart') player.playVideoAt(0);
+      else if (e.data.tv === 'restart') { at = 0; player.loadVideoById(ids[0]); }
     } catch (x) {}
   });
 
