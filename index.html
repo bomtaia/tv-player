@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ar">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=1920, height=1080">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>TV Player</title>
+<style>
+  html, body { margin: 0; width: 100%; height: 100%; background: #000; overflow: hidden; }
+  #p { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+  #msg { position: absolute; left: 24px; bottom: 24px; color: #9f9; font: 24px sans-serif; z-index: 2; }
+</style>
+</head>
+<body>
+<div id="p"></div>
+<div id="msg"></div>
+<script>
+// A full-screen YouTube player for a playlist that starts over when it ends.
+// ?list=<playlist id>; the page that frames it can send "pause", "play" or "restart" with postMessage.
+(function () {
+  var q = {};
+  location.search.replace(/^\?/, '').split('&').forEach(function (kv) {
+    var i = kv.indexOf('=');
+    if (i > 0) q[decodeURIComponent(kv.slice(0, i))] = decodeURIComponent(kv.slice(i + 1));
+  });
+  var list = q.list || 'PL-8GyGna6QmyXHBVi6L-e5JAJ3sinZokR';
+  var debug = q.debug === '1';
+  var player = null;
+
+  function say(s) {
+    if (debug) document.getElementById('msg').textContent = s;
+    try { parent.postMessage({tvPlayer: s}, '*'); } catch (e) {}
+  }
+
+  window.onYouTubeIframeAPIReady = function () {
+    player = new YT.Player('p', {
+      width: '100%', height: '100%',
+      playerVars: {listType: 'playlist', list: list, autoplay: 1, loop: 1, controls: 0, rel: 0,
+                   modestbranding: 1, playsinline: 1, iv_load_policy: 3, origin: location.origin},
+      events: {
+        onReady: function (e) { say('ready'); e.target.setLoop(true); e.target.playVideo(); },
+        onStateChange: function (e) {
+          say('state ' + e.data);
+          if (e.data === YT.PlayerState.ENDED) {
+            var ids = player.getPlaylist() || [];
+            if (player.getPlaylistIndex() >= ids.length - 1) player.playVideoAt(0);
+          }
+        },
+        onError: function (e) {
+          say('error ' + e.data);
+          // A video that won't play: go on to the next one.
+          setTimeout(function () { try { player.nextVideo(); } catch (x) {} }, 2000);
+        }
+      }
+    });
+  };
+
+  window.addEventListener('message', function (e) {
+    if (!player || !e.data || typeof e.data.tv !== 'string') return;
+    try {
+      if (e.data.tv === 'pause') player.pauseVideo();
+      else if (e.data.tv === 'play') player.playVideo();
+      else if (e.data.tv === 'restart') player.playVideoAt(0);
+    } catch (x) {}
+  });
+
+  var s = document.createElement('script');
+  s.src = 'https://www.youtube.com/iframe_api';
+  s.onerror = function () { say('api failed'); };
+  document.head.appendChild(s);
+})();
+</script>
+</body>
+</html>
