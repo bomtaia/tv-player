@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "note": "Backgrounds for Free My TV: nature, capitals and buildings, no people. Wikimedia Commons.",
+ "note": "Backgrounds for Free My TV: nature, capitals, buildings and mosques, no people. Wikimedia Commons.",
  "photos": [
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2013_Cogden_Bridge.jpg/1920px-2013_Cogden_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -193,6 +193,90 @@
    "credit": "Frankfurt Skyline 2022 bei Nacht.jpg (CC BY-SA 4.0)",
    "kind": "city",
    "title_ar": "فرانكفورت ليلاً، ألمانيا"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Sultan_Qaboos_Grand_Mosque_%281%29.jpg/1920px-Sultan_Qaboos_Grand_Mosque_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Sultan Qaboos Grand Mosque (1).jpg (CC BY-SA 4.0)",
+   "kind": "mosque",
+   "title_ar": "جامع السلطان قابوس الأكبر، مسقط"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Sultan_Qaboos_Grand_Mosque_%2819889998133%29.jpg/1920px-Sultan_Qaboos_Grand_Mosque_%2819889998133%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Sultan Qaboos Grand Mosque (19889998133).jpg (CC BY 2.0)",
+   "kind": "mosque",
+   "title_ar": "جامع السلطان قابوس الأكبر عند الغروب، مسقط"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul%2C_Turkey_002.jpg/1920px-Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul%2C_Turkey_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Exterior of Sultan Ahmed I Mosque in Istanbul, Turkey 002.jpg (CC BY-SA 3.0)",
+   "kind": "mosque",
+   "title_ar": "جامع السلطان أحمد (الجامع الأزرق)، إسطنبول"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul%2C_Turkey_003.jpg/1920px-Exterior_of_Sultan_Ahmed_I_Mosque_in_Istanbul%2C_Turkey_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Exterior of Sultan Ahmed I Mosque in Istanbul, Turkey 003.jpg (CC BY-SA 3.0)",
+   "kind": "mosque",
+   "title_ar": "الجامع الأزرق، إسطنبول"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Sunshine_on_mosque_Hassan_II_in_Casablanca%2C_Morocco_-_Flickr_-_Milamber%27s_portfolio.jpg/1920px-Sunshine_on_mosque_Hassan_II_in_Casablanca%2C_Morocco_-_Flickr_-_Milamber%27s_portfolio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Sunshine on mosque Hassan II in Casablanca, Morocco - Flickr - Milamber's portfolio.jpg (CC BY 2.0)",
+   "kind": "mosque",
+   "title_ar": "مسجد الحسن الثاني عند الغروب، الدار البيضاء"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Ali_Mujtaba_WLM2015_FAISAL_MOSQUE_m_10.jpg/1920px-Ali_Mujtaba_WLM2015_FAISAL_MOSQUE_m_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Ali Mujtaba WLM2015 FAISAL MOSQUE m 10.jpg (CC BY-SA 4.0)",
+   "kind": "mosque",
+   "title_ar": "مسجد فيصل، إسلام آباد"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/National_Faisal_Mosque_Islamabad.jpg/1920px-National_Faisal_Mosque_Islamabad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "National Faisal Mosque Islamabad.jpg (CC BY-SA 4.0)",
+   "kind": "mosque",
+   "title_ar": "مسجد فيصل، إسلام آباد"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Kuwait_City_Grand_Mosque_Exterior_South_Facade_5.jpg/1920px-Kuwait_City_Grand_Mosque_Exterior_South_Facade_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Kuwait City Grand Mosque Exterior South Facade 5.jpg (CC BY 4.0)",
+   "kind": "mosque",
+   "title_ar": "المسجد الكبير، مدينة الكويت"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Kuwait_City_Grand_Mosque_Interior_01.jpg/1920px-Kuwait_City_Grand_Mosque_Interior_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Kuwait City Grand Mosque Interior 01.jpg (CC BY 4.0)",
+   "kind": "mosque",
+   "title_ar": "المسجد الكبير من الداخل، الكويت"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Doha_Imam_Muhammad_ibn_Abd_al-Wahhab_Mosque_Exterior_4.jpg/1920px-Doha_Imam_Muhammad_ibn_Abd_al-Wahhab_Mosque_Exterior_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Doha Imam Muhammad ibn Abd al-Wahhab Mosque Exterior 4.jpg (CC BY 4.0)",
+   "kind": "mosque",
+   "title_ar": "جامع الإمام محمد بن عبدالوهاب، الدوحة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Badshahi_mosque_of_Lahore%2C_Pakistan.jpg/1920px-Badshahi_mosque_of_Lahore%2C_Pakistan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Badshahi mosque of Lahore, Pakistan.jpg (CC BY-SA 4.0)",
+   "kind": "mosque",
+   "title_ar": "مسجد بادشاهي، لاهور"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Manama_al-Fateh_Grand_Mosque_Exterior_Norden_2.jpg/1920px-Manama_al-Fateh_Grand_Mosque_Exterior_Norden_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Manama al-Fateh Grand Mosque Exterior Norden 2.jpg (CC BY-SA 4.0)",
+   "kind": "mosque",
+   "title_ar": "جامع الفاتح الإسلامي الكبير، المنامة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Manama_al-Fateh_Grand_Mosque_Interior_Gebetshalle_2.jpg/1920px-Manama_al-Fateh_Grand_Mosque_Interior_Gebetshalle_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Manama al-Fateh Grand Mosque Interior Gebetshalle 2.jpg (CC BY-SA 4.0)",
+   "kind": "mosque",
+   "title_ar": "جامع الفاتح من الداخل، المنامة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Manama_al-Fateh_Grand_Mosque_Interior_Gebetshalle_4.jpg/1920px-Manama_al-Fateh_Grand_Mosque_Interior_Gebetshalle_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Manama al-Fateh Grand Mosque Interior Gebetshalle 4.jpg (CC BY-SA 4.0)",
+   "kind": "mosque",
+   "title_ar": "جامع الفاتح من الداخل، المنامة"
   }
  ]
 }
