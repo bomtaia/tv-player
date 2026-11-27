@@ -16,7 +16,7 @@
 <div id="msg"></div>
 <script>
 // A full-screen YouTube player for a playlist that starts over when it ends.
-// ?ids=<video ids>; the page that frames it can send "pause", "play" or "restart" with postMessage.
+// ?ids=<video ids>; the page that frames it can send "pause", "play", "next", "prev" or "restart" with postMessage.
 (function () {
   var q = {};
   location.search.replace(/^\?/, '').split('&').forEach(function (kv) {
@@ -45,21 +45,23 @@
         onReady: function (e) { say('ready'); e.target.playVideo(); },
         onStateChange: function (e) {
           say('state ' + e.data + ' #' + (at + 1));
+          try { parent.postMessage({tvPlayerAt: at + 1, tvPlayerOf: ids.length, tvPlayerTitle: (player.getVideoData() || {}).title || ''}, '*'); } catch (x) {}
           // One video ended: the next, and after the last, the first again.
-          if (e.data === YT.PlayerState.ENDED) next();
+          if (e.data === YT.PlayerState.ENDED) next(1);
         },
         onError: function (e) {
           say('error ' + e.data + ' #' + (at + 1));
           failed[at] = true;
-          setTimeout(next, 1500);
+          setTimeout(function () { next(1); }, 1500);
         }
       }
     });
   };
 
-  function next() {
+  function next(step) {
+    step = step || 1;
     var tries = 0;
-    do { at = (at + 1) % ids.length; tries++; } while (failed[at] && tries < ids.length);
+    do { at = (at + step + ids.length) % ids.length; tries++; } while (failed[at] && tries < ids.length);
     if (failed[at]) failed = {};   // every one failed once: try them all again
     player.loadVideoById(ids[at]);
   }
@@ -70,6 +72,12 @@
       if (e.data.tv === 'pause') player.pauseVideo();
       else if (e.data.tv === 'play') player.playVideo();
       else if (e.data.tv === 'restart') { at = 0; player.loadVideoById(ids[0]); }
+      else if (e.data.tv === 'next') next(1);
+      else if (e.data.tv === 'prev') {
+        // Back: to the start of this video if it has played a while, else the one before (as players do).
+        if (player.getCurrentTime && player.getCurrentTime() > 5) player.seekTo(0, true);
+        else next(-1);
+      }
     } catch (x) {}
   });
 
