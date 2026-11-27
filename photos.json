@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "note": "Backgrounds for Free My TV: nature, capitals, buildings, mosques and the Two Holy Mosques, no faces. Wikimedia Commons.",
+ "note": "Backgrounds for Free My TV: nature, capitals, buildings, mosques, the Two Holy Mosques and Al-Aqsa, no faces. Wikimedia Commons.",
  "photos": [
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2013_Cogden_Bridge.jpg/1920px-2013_Cogden_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -397,6 +397,36 @@
    "credit": "Ulu Camii - Kaaba Curtain - Kabe Örtüsü (3).jpg (CC BY-SA 4.0)",
    "kind": "haram",
    "title_ar": "قطعة من كسوة الكعبة المشرفة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Exterior_of_the_Dome_of_the_Rock%2C_Jerusalem5.jpg/1920px-Exterior_of_the_Dome_of_the_Rock%2C_Jerusalem5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Exterior of the Dome of the Rock, Jerusalem5.jpg (CC BY-SA 3.0)",
+   "kind": "aqsa",
+   "title_ar": "قبة الصخرة، المسجد الأقصى، القدس"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Jerusalem-2013-Temple_Mount-Dome_of_the_Rock_%26_Chain.jpg/1920px-Jerusalem-2013-Temple_Mount-Dome_of_the_Rock_%26_Chain.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Jerusalem-2013-Temple Mount-Dome of the Rock & Chain.jpg (CC BY-SA 4.0)",
+   "kind": "aqsa",
+   "title_ar": "قبة الصخرة من بين الأقواس، المسجد الأقصى"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_%28NE_exposure%29.jpg/1920px-Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_%28NE_exposure%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Jerusalem-2013-Temple Mount-Al-Aqsa Mosque (NE exposure).jpg (CC BY-SA 4.0)",
+   "kind": "aqsa",
+   "title_ar": "المصلى القبلي، المسجد الأقصى، القدس"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Jerusalem-A-Quds-2013%282%29-Aerial-Al-Aqsa_Mosque_Compound-%28south_exposure%29.jpg/1920px-Jerusalem-A-Quds-2013%282%29-Aerial-Al-Aqsa_Mosque_Compound-%28south_exposure%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Jerusalem-A-Quds-2013(2)-Aerial-Al-Aqsa Mosque Compound-(south exposure).jpg (CC BY-SA 4.0)",
+   "kind": "aqsa",
+   "title_ar": "المسجد الأقصى من الأعلى، القدس"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Jerusalem_Sunset_-_panoramio.jpg/1920px-Jerusalem_Sunset_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Jerusalem Sunset - panoramio.jpg (CC BY-SA 3.0)",
+   "kind": "aqsa",
+   "title_ar": "قبة الصخرة عند الغروب، القدس"
   }
  ]
 }
