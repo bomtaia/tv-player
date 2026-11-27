@@ -1,6 +1,6 @@
 {
  "month": "2026-11",
- "note": "Backgrounds for Free My TV: nature, capitals, buildings and mosques, no people. Wikimedia Commons.",
+ "note": "Backgrounds for Free My TV: nature, capitals, buildings, mosques and the Two Holy Mosques, no faces. Wikimedia Commons.",
  "photos": [
   {
    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/2013_Cogden_Bridge.jpg/1920px-2013_Cogden_Bridge.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -277,6 +277,126 @@
    "credit": "Manama al-Fateh Grand Mosque Interior Gebetshalle 4.jpg (CC BY-SA 4.0)",
    "kind": "mosque",
    "title_ar": "جامع الفاتح من الداخل، المنامة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Masjid_al-Haram_2022.jpg/1920px-Masjid_al-Haram_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Masjid al-Haram 2022.jpg (CC0)",
+   "kind": "haram",
+   "title_ar": "المسجد الحرام والكعبة المشرفة، مكة المكرمة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Mosqu%C3%A9e_Masjid_el_Haram_%C3%A0_la_Mecque.jpg/1920px-Mosqu%C3%A9e_Masjid_el_Haram_%C3%A0_la_Mecque.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Mosquée Masjid el Haram à la Mecque.jpg (Public domain)",
+   "kind": "haram",
+   "title_ar": "الكعبة المشرفة، مكة المكرمة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Roof_of_Masjid_al-Haram_03.jpg/1920px-Roof_of_Masjid_al-Haram_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Roof of Masjid al-Haram 03.jpg (CC BY-SA 3.0)",
+   "kind": "haram",
+   "title_ar": "أروقة المسجد الحرام، مكة المكرمة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Kaaba_during_Hajj_-_edited.jpg/1920px-The_Kaaba_during_Hajj_-_edited.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "The Kaaba during Hajj - edited.jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "الكعبة المشرفة والمطاف، مكة المكرمة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Masjid_Nabwi_14.jpg/1920px-Masjid_Nabwi_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Masjid Nabwi 14.jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "المسجد النبوي ليلاً، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Masjidul-HaramAerialView_%28cropped%29.jpg/1920px-Masjidul-HaramAerialView_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Masjidul-HaramAerialView (cropped).jpg (CC0)",
+   "kind": "haram",
+   "title_ar": "المسجد الحرام ليلاً من الأعلى، مكة المكرمة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Al-Masjid_al-Nabawi_05.jpg/1920px-Al-Masjid_al-Nabawi_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Al-Masjid al-Nabawi 05.jpg (CC BY-SA 3.0)",
+   "kind": "haram",
+   "title_ar": "مظلات المسجد النبوي ليلاً، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Alharam_in_madinah.jpg/1920px-Alharam_in_madinah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Alharam in madinah.jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "ساحات المسجد النبوي ليلاً، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Masjid_Nabawi._Medina%2C_Saudi_Arabia-2.jpg/1920px-Masjid_Nabawi._Medina%2C_Saudi_Arabia-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Masjid Nabawi. Medina, Saudi Arabia-2.jpg (Public domain)",
+   "kind": "haram",
+   "title_ar": "مآذن المسجد النبوي عند الغروب، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Outsideofmasjedolnabi.JPG/1920px-Outsideofmasjedolnabi.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Outsideofmasjedolnabi.JPG (CC BY-SA 3.0)",
+   "kind": "haram",
+   "title_ar": "ساحة المسجد النبوي ليلاً، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Green_Dome_of_Madinah.jpg/1920px-Green_Dome_of_Madinah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Green Dome of Madinah.jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "القبة الخضراء، المسجد النبوي، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Rawdah_%28The_Green_Dome%29_front.jpg/1920px-Rawdah_%28The_Green_Dome%29_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Rawdah (The Green Dome) front.jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "القبة الخضراء ومآذن المسجد النبوي، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Al-Masjid_Al-Nabawi_9.JPG/1920px-Al-Masjid_Al-Nabawi_9.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Al-Masjid Al-Nabawi 9.JPG (CC BY-SA 3.0)",
+   "kind": "haram",
+   "title_ar": "مظلات المسجد النبوي، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Beautiful_View_of_Umbrella%27s_of_Masjid_Nabvi%2C_Madina_Munawara_-_panoramio.jpg/1920px-Beautiful_View_of_Umbrella%27s_of_Masjid_Nabvi%2C_Madina_Munawara_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Beautiful View of Umbrella's of Masjid Nabvi, Madina Munawara - panoramio.jpg (CC BY 3.0)",
+   "kind": "haram",
+   "title_ar": "مظلات ساحات المسجد النبوي، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Masjid_e_Nabawi_Courtyard_Umbrellas.jpg/1920px-Masjid_e_Nabawi_Courtyard_Umbrellas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Masjid e Nabawi Courtyard Umbrellas.jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "تحت مظلات المسجد النبوي، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Nabawi%27s_between_Umbrellas_-_2010_%284252814234%29.jpg/1920px-Nabawi%27s_between_Umbrellas_-_2010_%284252814234%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Nabawi's between Umbrellas - 2010 (4252814234).jpg (CC BY 2.0)",
+   "kind": "haram",
+   "title_ar": "مئذنة المسجد النبوي بين المظلات، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Umbrellas_for_the_Piazza_of_the_Prophet%E2%80%99s_Holy_Mosque%2C_Madinah%2C_SA.jpg/1920px-Umbrellas_for_the_Piazza_of_the_Prophet%E2%80%99s_Holy_Mosque%2C_Madinah%2C_SA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Umbrellas for the Piazza of the Prophet’s Holy Mosque, Madinah, SA.jpg (CC BY-SA 3.0)",
+   "kind": "haram",
+   "title_ar": "المسجد النبوي من الأعلى، المدينة المنورة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Masjid_al-%E1%B8%A4aram_2.jpg/1920px-Masjid_al-%E1%B8%A4aram_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Masjid al-Ḥaram 2.jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "قباب المسجد الحرام، مكة المكرمة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Masjid_al_Haram_Exterior.jpg/1920px-Masjid_al_Haram_Exterior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Masjid al Haram Exterior.jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "مآذن المسجد الحرام، مكة المكرمة"
+  },
+  {
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Ulu_Camii_-_Kaaba_Curtain_-_Kabe_%C3%96rt%C3%BCs%C3%BC_%283%29.jpg/1920px-Ulu_Camii_-_Kaaba_Curtain_-_Kabe_%C3%96rt%C3%BCs%C3%BC_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "credit": "Ulu Camii - Kaaba Curtain - Kabe Örtüsü (3).jpg (CC BY-SA 4.0)",
+   "kind": "haram",
+   "title_ar": "قطعة من كسوة الكعبة المشرفة"
   }
  ]
 }
